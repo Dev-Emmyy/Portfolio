@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <nav>
+               <img src="./Images/logo.PNG" alt="" width="200px">
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>FRONT-END DEVELOPER</p>
+                <h1>Hi, I'm <span id="typed-name"><br></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" re="/about.html">
+           <div class="row">
+            <div id="about_col_1">
+                <img src="./Images/image_2.jpg" width="400px">
+            </div>
+            <div id="about_col_2">
+                <h1 class="sub_title">About Me</h1>
+                <p>Emmanuel has a passion for creating visually stunning websites and applications that are both user-friendly and easy to
+                navigate.His expertise lies in HTML, CSS, JavaScript,and various frontend frameworks such as React.Also constantly learning and staying up-to-date with the latest frontend technologies and trends to provide the
+                best user experience to my clients.If you're looking for a frontend developer who can bring your ideas to life and provide a seamless user experience, I'd
+                love to work with you. Let's create something amazing together!</p>
+            
+            <div class="tab_titles">
+                <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                <p class="tab_links" onclick="opentab('education')">Education</p>
+            </div>
+            
+            <div class="tab_contents active_tab" id="skills" >
+                <ul>
+                    <li>Proficient in <span>HTML5, CSS3,
+                    JavaScript</span>.</li>
+                   <li>Familiarity with <span>React</span>.</li>
+                   <li>Experience with <span>CSS</span> preprocessors like <span>Sass</span> and <span>Less</span>.</li>
+                   <li>Knowledge of version control systems such as <span>Git</span>.</li>
+                   <li>Understanding of <span>responsive design</span> and <span>cross-browser</span> compatibility..</li>
+                </ul>
+            </div>
+
+            <div class="tab_contents" id="experience">
+                <ul>
+                    <li><span>RIMOTLI TECHNOLOGIES , Nigeria — Internship</span><br> Aug 2022 - Jan 2023 · 6 mos</li>  
+                </ul>
+            </div>
+
+            <div class="tab_contents" id="education">
+                <ul>
+                    <li><span>Federal Polytechnic Oko, Nigeria — National Diploma</span> <br>
+                        February 2019 - September 2021 <br>
+                        Studied Civil Engineering…
+                    </li>
+                </ul>
+            </div>
+            </div>
+           </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div id="container">
+            <h1 class="sub_title">My Portfolio</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="./Images/project_1.JPG" width="300px" height="450px">
+                    <div class="layer">
+                        <h3>Movie App</h3>
+                        <p>The web app consisit of search bar at the top of the page, as well as categories to browse different genres of films with thier thrillers.</p>
+                        <a href="https://movie-flix-eta.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+               <div class="work">
+                    <img src="./Images/project_2.JPG" width="300px" height="450px">
+                    <div class="layer">
+                        <h3>Fact Generator</h3>
+                        <p>This is a simple web application that generates random facts when the user clicks on the "Next random Fact" button..</p>
+                        <a href="https://random-fact-generator-jade.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/project_3.JPG" width="300px" height="450px">
+                    <div class="layer">
+                        <h3>Country App</h3>
+                        <p>The application provides a simple and user-friendly way for people to learn more about different countries and their
+                        characteristics.</p>
+                        <a href="https://country-app-theme-switcher.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Dev-Emmyy" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container"> 
+            <h1 class="sub_title">Contact Me</h1>
+            <div class="contact_list">
+                <div>
+                    <a href="https://www.facebook.com/Emmaugo.214?mibextid=LQQJ4d"><i class="fa-brands fa-facebook" style="color: #5fc1ee;"></i></a>
+                    <h4>Facebook</h4>
+                </div>
+                <div>
+                    <a href="https://twitter.com/9gunna9"><i class="fa-brands fa-twitter" style="color: #5fc1ee;"></i></a>
+                    <h4>Twitter</h4>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/ugochukwu-emmanuel-ba798a25a"><i class="fa-brands fa-linkedin" style="color: #5fc1ee;"></i></a>
+                    <h4>Linkedin</h4>
+                </div>
+                <div>
+                    <a href="https://github.com/Dev-Emmyy"><i class="fa-brands fa-github" style="color: #5fc1ee;"></i></a>
+                    <h4>Git-hub</h4>
+                </div>
+            </div>
+            <a href="./Images/Resume.pdf" download class="btn btn_2">DownLoad CV</a>
+        </div>
+    </div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab_links")
+       var tabcontents = document.getElementsByClassName("tab_contents")
+
+       function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active_link");
+        }
+
+         for (tabcontent of tabcontents) {
+               tabcontent.classList.remove("active_tab");
+           }
+
+           event.currentTarget.classList.add("active_link");
+           document.getElementById(tabname).classList.add("active_tab")
+
+       }
+
+       document.querySelector('a[href="#about"]', 'a[href="#portfolio"]','a[href="#contact"]').addEventListener('click', function (e) {
+            e.preventDefault(); 
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        document.querySelector('a[href="#portfolio"]').addEventListener('click', function (e) {
+            e.preventDefault(); 
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth' 
+            });
+        });
+
+        document.querySelector( 'a[href="#contact"]').addEventListener('click', function (e) {
+                e.preventDefault(); 
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+
+        const name = "Emmanuel Ugochukwu";
+            const nameElem = document.getElementById("typed-name");
+
+            let i = 0;
+            setInterval(() => {
+                if (i < name.length) {
+                    nameElem.textContent += name.charAt(i);
+                    i++;
+                }
+            }, 100);
+
+        
+        const menu = document.getElementById("menu");
+
+        function openmenu() {
+            menu.style.right = "0px";
+        }
+
+        function closemenu() {
+            menu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
