@@ -307,7 +307,7 @@ nav ul li a:hover::after {
     background-color: #5fc1ee;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
 
 body {
     width: 100%;
@@ -419,7 +419,7 @@ nav .fas {
 
 #about {
     margin: 10px 20px 30px 0px;
-    height: 120vh;
+    height: 150vh;
 }
 
 #about .row {
@@ -482,6 +482,8 @@ nav .fas {
 
 .tab_contents {
     display: none;
+    font-size: 14px;
+    height: 30vh;
 }
 
 .active_tab {
