@@ -309,7 +309,7 @@ nav ul li a:hover::after {
 
 @media screen and (max-width:600px) {
 
-html ,body {
+body {
     width: 100%;
     height: 100%;
 }
