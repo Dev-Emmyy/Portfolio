@@ -19,6 +19,7 @@ a {
 }
 
 .main_container {
+    width: 1150px;
     display: flex;
     flex-direction: column;
     margin: 0px 70px;
