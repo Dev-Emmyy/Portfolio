@@ -292,7 +292,7 @@ section {
 }
 
 @media screen and (max-width: 767px) {
-    
+
     .main_container {
         width: 550px;
         display: flex;
@@ -306,7 +306,6 @@ section {
         justify-content: space-between;
         align-items: center;
         width: 500px;
-
     }
 
     nav ul {
