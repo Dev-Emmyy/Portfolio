@@ -207,9 +207,12 @@ section {
 
 @media screen and (max-width: 767px) {
 
+    body {
+        width: 100%;
+    }
 
     .main_container {
-        width: 550px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -220,9 +223,13 @@ section {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 500px;
-
+        width: 370px;
     }
+
+    nav img {
+        width: 200px;
+    }
+
 
     nav ul {
         position: fixed;
@@ -268,11 +275,22 @@ section {
     }
 
     .site-map {
-        width: 500px;
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .sitemap-page {
+        margin-bottom: 15px;
+    }
+
+    .sitemap-info {
+        margin-left: 20px;
     }
 
     .blog-list-container {
-        width: 500px;
+        width: 370px;
         display: flex;
         flex-direction: column;
     }

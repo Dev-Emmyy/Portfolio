@@ -186,9 +186,12 @@ section {
 
 @media screen and (max-width: 767px) {
 
+    body {
+        width: 100%;
+    }
 
     .main_container {
-        width: 550px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -199,8 +202,12 @@ section {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 500px;
+        width: 370px;
 
+    }
+
+    nav img {
+        width: 200px;
     }
 
     nav ul {
@@ -246,11 +253,22 @@ section {
     }
 
     .site-map {
-        width: 500px;
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .sitemap-page {
+        margin-bottom: 15px;
+    }
+
+    .sitemap-info {
+        margin-left: 20px;
     }
 
     .work-block-container {
-        width: 500px;
+        width: 370px;
         display: flex;
         flex-direction: column;
     }
@@ -260,7 +278,7 @@ section {
     }
 
     .work-item-inner {
-        width: 500px;
+        width: 370px;
         border: 1px solid #313237;
         border-radius: 20px;
         margin-left: 8px;
