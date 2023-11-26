@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="icon" href="/Images/logo1234.png">
+    <link rel="stylesheet" href="./Styles/about.css">
+    <title>Emmy's World</title>
+</head>
+
+<body>
+<div class="main_container">
+    <Header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Images/main_logo.png" alt="logo" width="250px">
+            </div>
+            <div class="link_container">
+                <ul id="menu">
+                    <li><a href="./home.html" class="nav_link">home</a></li>
+                    <li><a href="./about.html" class="nav_link current">about</a></li>
+                    <li><a href="./work.html" class="nav_link">work</a></li>
+                    <li><a href="./blog.html" class="nav_link">blog</a></li>
+                    <li><a href="./contact.html" class="nav_link">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </Header>
+
+    <section>
+        <div class="site-map">
+            <div class="sitemap-page">
+                <img src="./Images/sitemap-image.jpg" alt="sitemap-image" class="sitemap-image">
+                <h4 class="sitemap-title">About</h4>
+            </div>
+            <div class="sitemap-info">
+                <img src="./Images/blue-icon.png" alt="dot" class="sitemap-dot">
+                <div class="sitemap-text">biography &amp; abilities</div>
+            </div>
+        </div>
+
+        <div class="about-main-container">
+            <div class="about-me-info">
+                <h1 class="inner-pages-main-title">Emmanuel Ugochukwu</h1>
+                <div class="title-blue-line"></div>
+                <div class="about-me-span">Frontend-Developer</div>
+                <img src="./Images/me.PNG"  alt="me" width="400px" class="about-me-img">
+            </div>
+
+        
+            <div class="about-me-text">
+                <img src="./Images/circle-icon.png" alt="circle" class="rotating-circle">
+                <div class="about-me-description">
+                    My passion lies in staying at the forefront of the latest technologies and trends, and I am driven by the desire to continually enhance my professional experience and knowledge.
+                </div>
+                <div class="cvLink">
+                    <a href="./Images/resume.pdf" download class="">DownLoad Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-line"></div>
+
+        <div class="tools">
+            <h1 class="inner-pages-main-title">Tools and Softwares</h1>
+            <div class="title-blue-line"></div>
+            <div class="space-line"></div>
+            <div class="tools-images">
+                <div data-w-id="a343af63-a6d5-152b-eea8-9d50fa9b6728" class="tools-item">
+                    <div class="tools-item-text">html5</div>
+                    <img src="./Images/html5-logo.png" alt="html5" class="tools-item-image">
+                </div>
+                <div data-w-id="a1aa19fd-8d6a-1617-624f-bae309ef719f" class="tools-item">
+                    <div class="tools-item-text">css3</div>
+                    <img src="./Images/css-logo.png" alt="css3" class="tools-item-image">
+                </div>
+                <div data-w-id="fe6f7f4b-3c08-7d1d-c6e3-768bfcfe1d07" class="tools-item">
+                    <div class="tools-item-text">javascript</div>
+                    <img src="./Images/javascript-logo.png" alt="javascript" class="tools-item-image" width="110px">
+                </div>
+                <div data-w-id="81c9a0d1-cabc-ee86-a339-40a27d2d6839" class="tools-item">
+                    <div class="tools-item-text">react</div>
+                    <img src="./Images/react-logo.png" alt="react" class="tools-item-image">
+                </div>
+                <div data-w-id="25b6a0d5-cdf1-504a-8610-91a97716ba3c" class="tools-item">
+                    <div class="tools-item-text">nextJs</div>
+                    <img src="./Images/next-js-logo.png" alt="nextJs" class="tools-item-image" width="110px">
+                </div>
+                <div data-w-id="d74b2b8f-14de-759d-7015-e4a5efa247db" class="tools-item">
+                    <div class="tools-item-text">typescript</div>
+                    <img src="./Images/typescript-def.png" alt="typescript" class="tools-item-image" width="110px">
+                </div>
+                <div data-w-id="ba6f9341-d54f-e833-45fe-4edd508dc14a" class="tools-item">
+                    <div class="tools-item-text">figma</div>
+                    <img src="./Images/figma-logo.png" alt="figma" class="tools-item-image">
+                </div>
+                <div data-w-id="b8e17c95-39c5-efc0-70b8-3c87facd72bd" class="tools-item">
+                    <div class="tools-item-text">chatgpt</div>
+                    <img src="./Images/chatgpt.-logo.png" alt="chatgpt" class="tools-item-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="space-line"></div>   
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="copyright-text">Emmanuel Work © 2023🌟</div>
+        </div>
+    </footer>
+</div>
+
+    <script>
+        const menu = document.getElementById("menu");
+
+        function openmenu() {
+            menu.style.right = "0px";
+            menu.style.transform = "translateX(0)";
+        }
+
+        function closemenu() {
+            menu.style.right = "-200px";
+            menu.style.transform = "translateX(100%)";
+        }
+    </script>
+</body>
+
+</html>

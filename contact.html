@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="icon" href="/Images/logo1234.png">
+    <link rel="stylesheet" href="./Styles/contact.css">
+    <title>Emmy's World</title>
+</head>
+<body>
+    <div class="main_container">
+        <Header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./Images/main_logo.png" alt="logo" width="250px">
+                </div>
+                <div class="link_container">
+                    <ul id="menu">
+                        <li><a href="./home.html" class="nav_link">home</a></li>
+                        <li><a href="./about.html" class="nav_link">about</a></li>
+                        <li><a href="./work.html" class="nav_link">work</a></li>
+                        <li><a href="./blog.html" class="nav_link">blog</a></li>
+                        <li><a href="./contact.html" class="nav_link  current">contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+        </Header>
+
+        <section>
+            <div class="site-map">
+                <div class="sitemap-page">
+                    <img src="./Images/sitemap_contact.png" alt="sitemap" class="sitemap-image">
+                    <h4 class="sitemap-title">CONTACT ME</h4>
+                </div>
+                <div class="sitemap-info">
+                    <img src="./Images/blue-icon.png" alt="dot" class="sitemap-dot">
+                    <div class="sitemap-text">let’s talk</div>
+                </div>
+            </div>
+
+            <div class="contact-wrapper">
+                <h3 class="contact-title">Say Hello!</h3>
+                <div class="w-form">
+                    <form action="https://formsubmit.co/emmanuelugochukwu2000@gmail.com" method="POST" class="w-clearfix">
+                       <input type="text" class="input-style w-input" maxlength="256" autocomplete="off" placeholder="Name" name="Name" required>
+                        <input type="email" class="input-style w-input" maxlength="256" autocomplete="off" placeholder="E-mail" name="Email" required>
+                        <input type="text" class="input-style w-input" maxlength="256" autocomplete="off" placeholder="Website" name="Website"  required>
+                        <input type="text" class="input-style textarea w-input" maxlength="256" autocomplete="off" placeholder="Message" name="Message" required>
+                        <button type="submit" id="submitButton"  class="submit-button w-button">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="copyright-text">Emmanuel Work © 2023🌟</div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menu = document.getElementById("menu");
+
+        function openmenu() {
+            menu.style.right = "0px";
+            menu.style.transform = "translateX(0)";
+        }
+
+        function closemenu() {
+            menu.style.right = "-200px";
+            menu.style.transform = "translateX(100%)";
+        }
+    </script>
+</body>
+</html>
